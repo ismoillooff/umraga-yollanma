@@ -29,6 +29,8 @@ Paket narxlari, mehmonxona misollari va aloqa ma’lumotlari demo kontent. Amald
 - [Texnologiyalar va tuzilma](#texnologiyalar-va-tuzilma)
 - [API](#api)
 - [Konfiguratsiya va ma’lumotlar](#konfiguratsiya-va-malumotlar)
+- [Tekshiruv va muammolar](#tekshiruv-va-muammolar)
+- [Manbalar](#manbalar)
 
 ## Imkoniyatlar
 
@@ -128,3 +130,32 @@ Ishlab chiqish rejimida Vite `/api` so‘rovlarini mahalliy Node.js serveriga uz
 `shared/default-config.json` yangi baza yaratilganda qo‘llanadi. Mavjud saytdagi paketlar, narx va aloqa ma’lumotlarini admin paneldan o‘zgartiring. Zaxira olayotganda SQLite bazasi va `uploads/` katalogini birga saqlang.
 
 Server `127.0.0.1` manziliga bog‘lanadi. Tashqi serverda xizmatni ochishdan oldin admin hisobini lokal tarzda yarating. HTTPS reverse proxy ishlatsangiz, tashqi `Host` sarlavhasini saqlang va `UMRA_SECURE_COOKIES=1` ni belgilang.
+
+## Tekshiruv va muammolar
+
+```sh
+npm run build
+npm run test:server
+npm test
+```
+
+Playwright testlari **Google Chrome** bilan desktop va mobil profillarda ishlaydi. Test serveri 5181 va 5183 portlaridan foydalanadi. Arizalar va test admin hisobi `.local/e2e-*.sqlite3` bazalarida yaratiladi.
+
+| Holat | Tekshiring |
+| --- | --- |
+| Sayt ma’lumotlari yuklanmayapti | API ishlayotganini `/api/health` orqali tekshiring. Dev rejimida Vite va API portlarini moslang |
+| `node:sqlite` moduli topilmadi | `node --version` bilan Node.js versiyasini tekshiring. Node.js 24 yoki yangiroq versiyasidan foydalaning |
+| Port band | Avvalgi ishga tushirish jarayonini to‘xtating yoki `UMRA_API_PORT` va Vite portiga boshqa qiymat bering |
+| Admin sessiyasi lokal HTTP’da saqlanmayapti | Lokal HTTP uchun `UMRA_SECURE_COOKIES` ni bo‘sh qoldiring |
+| Namoz vaqtlari yoki ob-havo ko‘rinmayapti | Internet va tashqi xizmatlarni tekshiring. Xato holatida interfeys ma’lumot vaqtincha mavjud emasligini ko‘rsatadi |
+
+## Manbalar
+
+- **Namoz jadvali.** [AlAdhan](https://aladhan.com/prayer-times-api) Toshkent uchun MWL/Hanafiy, Makka va Madina uchun Umm al-Qura usuli bilan ishlatiladi. Jadval shahar vaqt zonasida ko‘rsatiladi.
+- **Ob-havo.** [Open-Meteo](https://open-meteo.com/) joriy sharoitlarni beradi. Tijoriy joylashtirish uchun xizmatning [foydalanish rejalarini](https://open-meteo.com/en/pricing) tekshiring.
+- **Safardan oldingi tekshiruv.** Havola [my.gov.uz davlat xizmatiga](https://oldmy.gov.uz/oz/service/412) olib boradi.
+- **Ziyorat suratlari.** [Sam Riz — Ka’ba](https://unsplash.com/photos/kaaba-at-masjid-al-haram-in-mecca-ceNCWYqL8DY), [Haidan — Masjid an-Nabaviy](https://unsplash.com/photos/al-masjid-an-nabawi-mosque-in-medina-Qec3HPaHWTI) va [Makka manzarasi](https://images.unsplash.com/photo-1565552645632-d725f8bfc19a). [Unsplash litsenziyasi](https://unsplash.com/license).
+- **Mehmonxona suratlari.** [Al Kiswah Towers](https://alkiswah-towers.com/standard-quadruple-room/), [Elaf Bakkah Hotel](https://www.elafhotels.com/elaf-bakkah/gallery) va [Swissôtel Makkah](https://www.swissotel.com/hotels/makkah/accommodation/classic-room/). Ular xona misollarini ko‘rsatadi. Safar oldidan xona turi va joylashuv agentlik bilan tasdiqlanadi.
+- **Shriftlar.** [Manrope](public/fonts/manrope-OFL.txt), [DM Sans](public/fonts/dmsans-OFL.txt) va [Cormorant Garamond](public/fonts/cormorantgaramond-OFL.txt). SIL Open Font License matnlari repozitoriyda mavjud.
+
+GitHub’dagi texnik savol yoki taklif uchun [Issues](https://github.com/ismoillooff/umraga-yollanma/issues) bo‘limidan foydalaning.
