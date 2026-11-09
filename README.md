@@ -13,6 +13,8 @@ Ziyorat dasturi · 3–5 yulduzli paketlar · Namoz vaqtlari · Admin panel
 ![SQLite](https://img.shields.io/badge/SQLite-maʼlumotlar-003b57?logo=sqlite&logoColor=white)
 ![O‘zbekcha](https://img.shields.io/badge/til-o%CA%BBzbekcha-15803d)
 
+![Umraga yo‘llanma landing sahifasining bosh ekrani](docs/screenshots/landing.png)
+
 </div>
 
 ## Loyiha haqida
@@ -23,6 +25,7 @@ Paket narxlari, mehmonxona misollari va aloqa ma’lumotlari demo kontent. Amald
 
 ## Mundarija
 
+- [Ko‘rinish](#korinish)
 - [Imkoniyatlar](#imkoniyatlar)
 - [Ishga tushirish](#ishga-tushirish)
 - [Admin panel](#admin-panel)
@@ -31,6 +34,14 @@ Paket narxlari, mehmonxona misollari va aloqa ma’lumotlari demo kontent. Amald
 - [Konfiguratsiya va ma’lumotlar](#konfiguratsiya-va-malumotlar)
 - [Tekshiruv va muammolar](#tekshiruv-va-muammolar)
 - [Manbalar](#manbalar)
+
+## Ko‘rinish
+
+| Admin panel | Mobil landing |
+| --- | --- |
+| [![Admin panelda arizalar va statistika](docs/screenshots/admin.png)](docs/screenshots/admin.png) | <img src="docs/screenshots/mobile.png" alt="Umra landing sahifasining telefon ko‘rinishi" width="260"> |
+
+Admin panel tasviri test bazasidagi namunaviy arizadan olingan.
 
 ## Imkoniyatlar
 
