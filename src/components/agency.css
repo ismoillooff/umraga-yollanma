@@ -1,0 +1,2754 @@
+.header {
+  background: #fffdf9f2;
+}
+.announcement {
+  background: #083e36;
+}
+.hero h1 em {
+  color: #bc8732;
+}
+.hero-copy > p {
+  color: #6f7f72;
+}
+.hero-actions > .button {
+  box-shadow: 0 5px 18px #07846b14;
+}
+.hero-season {
+  color: #3b7e67;
+  background: #fafff5;
+}
+.hero-season .status-dot {
+  background: #13b38c;
+}
+.hero-photo > img {
+  filter: saturate(1.09);
+}
+.hero-photo {
+  border-color: #fffdf9;
+  outline-color: #e6d6b4;
+}
+.hero-image-caption {
+  left: 38%;
+}
+.hero-image-caption > div {
+  max-width: 180px;
+}
+.hero-image-caption strong {
+  font-size: 12px;
+}
+.hero-season {
+  animation: float-gently 7s ease-in-out infinite;
+}
+.intention-seal {
+  background: #fff0ce;
+  color: #bd8a2f;
+  border: 1px solid #edd8a6;
+}
+.intention-seal strong {
+  color: #607443;
+}
+.popular-badge {
+  background: #07866a;
+}
+.package-card.featured {
+  border-color: #35af8e;
+  box-shadow: 0 6px 24px #087f650b;
+}
+.package-card.featured .package-price > strong {
+  color: #087f65;
+}
+.segmented > button.active {
+  background: #087f65;
+}
+.brand small {
+  letter-spacing: 1.7px;
+}
+.image-note {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  max-width: calc(100% - 36px);
+  font-size: 9px;
+}
+.hotel-info {
+  padding-block: 35px;
+}
+.hotel-real-name {
+  font-family: var(--sans);
+  font-size: 12px;
+  color: #2f7963;
+  font-weight: 700;
+  margin-top: 17px;
+  line-height: 1.6;
+}
+.hotel-real-name > span {
+  font-size: 10px;
+  font-weight: 500;
+  color: #859479;
+}
+.hotel-info h3 {
+  margin-top: 10px;
+}
+.hotel-disclaimer {
+  line-height: 1.8;
+}
+.hotel-showcase {
+  background: #edf5e9;
+}
+.hotel-category > span:last-child {
+  color: #618c71;
+}
+.footer {
+  background: #e7f2e8;
+}
+.footer-admin-link {
+  color: #548371;
+}
+.request-reference {
+  font-size: 9px !important;
+  color: #8a9c82 !important;
+  margin-top: 13px !important;
+}
+.site-loading {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  padding: 30px;
+  text-align: center;
+}
+.site-loading > svg {
+  color: #12a781;
+}
+.site-loading > h1 {
+  font-family: var(--serif);
+  font-size: 32px;
+  font-weight: 500;
+}
+.button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+.loading-spin {
+  animation: loading-spin 1s linear infinite;
+}
+
+.agency-services {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border: 1px solid #e0ebde;
+  border-radius: 12px;
+  background: #eff7ee;
+  padding: 29px 0;
+  margin-bottom: 0;
+  position: relative;
+}
+.agency-services > article {
+  padding: 0 26px;
+}
+.agency-services > article + article {
+  border-left: 1px solid #dbe9d8;
+}
+.agency-services > article > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.service-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  background: #def2e7;
+  color: #07926e;
+}
+.service-color-1 {
+  background: #e3edff;
+  color: #3475d8;
+}
+.service-color-2 {
+  background: #fff0d2;
+  color: #c69726;
+}
+.service-color-3 {
+  background: #f5e7f6;
+  color: #b779b0;
+}
+.service-index {
+  font-family: var(--serif);
+  font-size: 23px;
+  line-height: 1;
+  color: #b9cdb1;
+}
+.agency-services h3 {
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 750;
+  letter-spacing: -0.2px;
+  color: #3f654e;
+}
+.agency-services p {
+  font-size: 11px;
+  line-height: 1.9;
+  color: #899a7e;
+  margin-top: 10px;
+  max-width: 240px;
+}
+
+.why-section {
+  background: #f1f5eb;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding-block: 78px;
+}
+.why-section:before {
+  content: "";
+  position: absolute;
+  width: 600px;
+  height: 500px;
+  background: radial-gradient(ellipse, #a8bd7610, transparent 65%);
+  top: -50px;
+  left: calc(50% - 300px);
+  z-index: -1;
+}
+.why-heading {
+  text-align: center;
+}
+.why-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 12px;
+  background: #e8f1e2;
+  border: 1px solid #d4e1ca;
+  border-radius: 30px;
+  color: #5b7b53;
+  font-size: 9px;
+}
+.why-pill > svg {
+  color: #a98541;
+}
+.why-heading h2 {
+  font-family: var(--serif);
+  font-size: 47px;
+  font-weight: 500;
+  letter-spacing: -1.4px;
+  color: #294d39;
+  margin-top: 21px;
+}
+.why-heading h2 > span {
+  color: #a67f3f;
+}
+.why-heading > p {
+  font-size: 12px;
+  line-height: 1.85;
+  color: #728168;
+  margin-top: 17px;
+}
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 19px;
+  margin-top: 38px;
+}
+.why-card {
+  position: relative;
+  background: #fffefb;
+  border: 1px solid #dce7d5;
+  border-radius: 13px;
+  padding: 25px 26px;
+  min-height: 216px;
+  overflow: hidden;
+  transition:
+    border-color 0.25s,
+    box-shadow 0.25s;
+}
+.why-card:hover {
+  border-color: #9dbb90;
+  box-shadow: 0 9px 30px #173e340b;
+}
+.why-icon {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  background: #f6edd9;
+  border: 1px solid #e7d7ae;
+  border-radius: 13px;
+  color: #ab8846;
+}
+.why-number {
+  position: absolute;
+  right: 24px;
+  top: 17px;
+  color: #b69a65;
+  font-family: var(--sans);
+  font-size: 49px;
+  font-weight: 800;
+  letter-spacing: -3px;
+  opacity: 0.85;
+  line-height: 1.15;
+  text-shadow: none;
+}
+.why-card h3 {
+  font-family: var(--sans);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  line-height: 1.55;
+  color: #36583f;
+  margin-top: 21px;
+  max-width: 240px;
+}
+.why-card p {
+  font-size: 11px;
+  line-height: 1.9;
+  color: #728168;
+  max-width: 280px;
+  margin-top: 10px;
+}
+.why-color-1 .why-icon {
+  background: #e3efdf;
+  border-color: #cdddbe;
+  color: #749566;
+}
+.why-color-1 .why-number {
+  color: #749566;
+  text-shadow: none;
+}
+.why-color-2 .why-icon {
+  background: #eaf0df;
+  border-color: #d3dfbe;
+  color: #7e965b;
+}
+.why-color-2 .why-number {
+  color: #a2b184;
+  text-shadow: none;
+}
+.why-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  border: 1px solid #dce7d5;
+  background: #e8f0e1;
+  padding: 20px 24px;
+  border-radius: 11px;
+  margin-top: 23px;
+  color: #6a8060;
+}
+.why-bottom > span {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  font-size: 10px;
+}
+.why-bottom > span > svg {
+  color: #7b9b64;
+}
+.why-bottom > em {
+  font-family: var(--serif);
+  font-size: 22px;
+  color: #a4844d;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  white-space: nowrap;
+}
+
+.payment-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: center;
+}
+.payment-intro > h2 {
+  font-size: 50px;
+  margin-top: 17px;
+  line-height: 1.06;
+}
+.payment-intro > p {
+  font-size: 12px;
+  color: #87957d;
+  line-height: 1.9;
+  margin-top: 20px;
+  max-width: 350px;
+}
+.payment-visual {
+  position: relative;
+  width: 310px;
+  max-width: 100%;
+  margin-top: 35px;
+  padding: 10px 0 15px 12px;
+}
+.payment-card-art {
+  padding: 24px;
+  position: relative;
+  background: #086a59;
+  background-image: radial-gradient(
+    ellipse at 10% 100%,
+    #1b9f79,
+    transparent 80%
+  );
+  color: #d2f4db;
+  width: 292px;
+  max-width: 100%;
+  height: 175px;
+  border-radius: 12px;
+  box-shadow: 0 17px 28px #1a634c18;
+  transform: rotate(-6deg);
+  overflow: hidden;
+}
+.payment-card-art > div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  position: relative;
+  z-index: 1;
+}
+.payment-card-art > div:first-child > span {
+  font-size: 10px;
+  font-weight: 650;
+}
+.payment-card-art > svg {
+  margin-top: 22px;
+  color: #a3d1a9;
+}
+.payment-card-art > span {
+  display: block;
+  font-size: 5px;
+  letter-spacing: 1.5px;
+  color: #69b49a;
+  margin-top: 12px;
+}
+.payment-card-art > strong {
+  position: absolute;
+  bottom: 25px;
+  right: 23px;
+  font-family: var(--sans);
+  font-size: 13px;
+  color: #d4ebc7;
+  letter-spacing: 1.1px;
+}
+.payment-card-art > strong > i {
+  font-size: 8px;
+  color: #83c7a4;
+  display: block;
+  text-align: right;
+  margin-top: 4px;
+  font-weight: 550;
+  letter-spacing: 2.6px;
+  font-style: normal;
+}
+.payment-card-ring {
+  position: absolute;
+  left: 65%;
+  top: 0;
+  width: 220px;
+  height: 220px;
+  border: 35px solid #c8e5ae08;
+  border-radius: 50%;
+  transform: rotate(-25deg);
+}
+.payment-visual > img {
+  height: 230px;
+  width: auto;
+  max-width: 250px;
+  object-fit: contain;
+  border-radius: 10px;
+  background: #fff;
+  padding: 12px;
+  border: 1px solid #e4ebde;
+  box-shadow: 0 15px 25px #214c3e08;
+}
+.payment-secure-pill {
+  position: absolute;
+  bottom: -4px;
+  right: -14px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background: #fffdfa;
+  border: 1px solid #e4e9d9;
+  box-shadow: 0 5px 20px #3d6b3a0a;
+  border-radius: 7px;
+  padding: 10px 14px;
+  font-size: 8px;
+  color: #7e9f70;
+}
+.payment-secure-pill > svg {
+  color: #23b18c;
+}
+.payment-options {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.payment-option {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #e3e9df;
+  border-radius: 10px;
+  background: #fffefa;
+  transition:
+    background 0.2s,
+    border-color 0.2s,
+    box-shadow 0.2s;
+  min-height: 88px;
+}
+.payment-option:hover {
+  border-color: #a6c8b6;
+}
+.payment-option.payment-selected {
+  border-color: #80c9ad;
+  background: #eff9f0;
+  box-shadow: 0 3px 12px #11835d06;
+}
+.payment-option-icon {
+  width: 42px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  background: #edf2e7;
+  color: #83a16e;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+.payment-selected .payment-option-icon {
+  background: #0b8c6b;
+  color: #efffed;
+  box-shadow: 0 4px 12px #12936d14;
+}
+.payment-option strong {
+  font-family: var(--sans);
+  font-size: 12px;
+  display: block;
+  font-weight: 750;
+  color: #45664d;
+}
+.payment-option small {
+  font-size: 10px;
+  display: block;
+  color: #91a085;
+  line-height: 1.85;
+  margin-top: 5px;
+}
+.payment-choice {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #cddbc5;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-left: auto;
+  color: #fff;
+}
+.payment-selected .payment-choice {
+  background: #0b8c6b;
+  border-color: #0b8c6b;
+}
+.payment-footnote {
+  font-size: 9px;
+  color: #98a58a;
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  line-height: 1.9;
+  margin-top: 5px;
+  padding-inline: 3px;
+}
+.payment-footnote > svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.travel-tools {
+  padding-top: 75px;
+  padding-bottom: 35px;
+}
+.travel-check-banner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #e8efdf;
+  border: 1px solid #d9e4ca;
+  color: #36573f;
+  padding: 26px 32px;
+  border-radius: 13px;
+  box-shadow: 0 8px 30px #66874808;
+  margin-bottom: 30px;
+}
+.travel-check-banner > span {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 54px;
+  background: #dfead0;
+  border: 1px solid #d1dfba;
+  border-radius: 14px;
+  flex-shrink: 0;
+  color: #a58b4e;
+}
+.travel-check-banner h3 {
+  font-family: var(--sans);
+  font-weight: 750;
+  font-size: 19px;
+  letter-spacing: -0.5px;
+}
+.travel-check-banner p {
+  font-size: 11px;
+  color: #718463;
+  line-height: 1.9;
+  margin-top: 7px;
+  max-width: 590px;
+}
+.travel-check-banner > a {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  border-radius: 7px;
+  padding: 14px 18px;
+  background: #087f65;
+  color: #fffdf6;
+  font-size: 10px;
+  font-weight: 650;
+  white-space: nowrap;
+  transition:
+    background 0.2s,
+    transform 0.2s;
+}
+.travel-check-banner > a:hover {
+  background: #096a56;
+  transform: translateY(-2px);
+}
+.prayer-widget {
+  background: #fffef9;
+  border: 1px solid #dce6d3;
+  border-radius: 15px;
+  padding: 30px;
+  color: #294c3d;
+}
+.prayer-widget-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  margin-bottom: 26px;
+}
+.prayer-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.prayer-brand-icon {
+  width: 44px;
+  height: 48px;
+  background: #f1ead5;
+  border: 1px solid #e4d6ad;
+  border-radius: 12px;
+  color: #ad8b48;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+.travel-today {
+  font-size: 7px;
+  letter-spacing: 1.5px;
+  color: #8b9b73;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.travel-today > span {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #a78a45;
+}
+.prayer-title h2 {
+  font-family: var(--serif);
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: -0.8px;
+  margin-top: 6px;
+  line-height: 1.3;
+}
+.prayer-title p {
+  font-size: 8px;
+  line-height: 1.8;
+  color: #7d8e72;
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.prayer-title p > svg {
+  color: #a58a48;
+}
+.prayer-title p > span {
+  font-size: 8px;
+  color: #8a987c;
+}
+.prayer-heading-controls {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.prayer-city-selector {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  background: #eef4e6;
+  border: 1px solid #d5e0c8;
+  border-radius: 25px;
+  padding: 8px 12px;
+  color: #5c815d;
+}
+.prayer-city-selector > select {
+  appearance: auto;
+  background: transparent;
+  border: 0;
+  color: #446d4f;
+  font-size: 10px;
+  padding-right: 6px;
+  font-weight: 650;
+  cursor: pointer;
+  min-width: 80px;
+}
+.prayer-city-selector option {
+  background: #fffdf7;
+  color: #446d4f;
+}
+.travel-clock {
+  text-align: right;
+  min-width: 113px;
+  border: 1px solid #dbe4ce;
+  padding: 9px 12px;
+  border-radius: 10px;
+  background: #f0f5e8;
+}
+.travel-clock > span {
+  font-size: 6px;
+  color: #839674;
+  display: block;
+}
+.travel-clock strong {
+  font-family: var(--sans);
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -0.4px;
+  line-height: 1.7;
+  display: block;
+  color: #2e654b;
+  font-variant-numeric: tabular-nums;
+}
+.travel-clock small {
+  font-size: 6px;
+  letter-spacing: 1px;
+  color: #839674;
+  display: block;
+}
+.prayer-times-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 12px;
+}
+.prayer-time {
+  border: 1px solid #e0e7d7;
+  background: #f5f7ee;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 130px;
+  padding: 15px 10px;
+  gap: 9px;
+  position: relative;
+}
+.prayer-time > svg {
+  color: #b18b43;
+}
+.prayer-tone-0 > svg {
+  color: #879c64;
+}
+.prayer-tone-3 > svg {
+  color: #af965c;
+}
+.prayer-tone-4 > svg {
+  color: #a28b51;
+}
+.prayer-tone-5 > svg {
+  color: #76946b;
+}
+.prayer-time > span {
+  font-size: 9px;
+  color: #6d8461;
+  font-weight: 650;
+}
+.prayer-time > strong {
+  font-family: var(--sans);
+  font-size: 27px;
+  font-weight: 800;
+  letter-spacing: -0.7px;
+  line-height: 1.1;
+  color: #385c43;
+}
+.prayer-time > small {
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 6px;
+  color: #b1cba9;
+  font-weight: 650;
+}
+.prayer-time.prayer-next {
+  background: #087f65;
+  border-color: #0a9878;
+  box-shadow: 0 7px 20px #087f651a;
+}
+.prayer-next > svg,
+.prayer-next > strong {
+  color: #fffdf4;
+}
+.prayer-next > span {
+  color: #d6eddd;
+}
+.prayer-next > small {
+  color: #f1e5bd;
+}
+.prayer-next {
+  padding-bottom: 24px;
+}
+.prayer-widget-caption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  font-size: 8px;
+  color: #839477;
+  margin-top: 17px;
+  padding-inline: 2px;
+  line-height: 1.7;
+}
+.prayer-widget-caption > span {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.prayer-widget-caption > a,
+.prayer-widget-caption > button {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  color: #6e8c61;
+  font-size: 8px;
+  padding: 0;
+}
+.prayer-widget-caption > button {
+  gap: 6px;
+}
+.travel-quote-strip {
+  position: relative;
+  isolation: isolate;
+  background: #eef3e7;
+  border: 1px solid #dce7d3;
+  border-radius: 9px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin-top: 24px;
+  overflow: hidden;
+  min-height: 82px;
+}
+.travel-quote-strip > svg {
+  color: #b58d43;
+  flex-shrink: 0;
+}
+.travel-quote-strip > p {
+  font-family: var(--serif);
+  font-size: 19px;
+  color: #446e51;
+  line-height: 1.5;
+  position: relative;
+  z-index: 1;
+}
+.travel-quote-strip strong {
+  font-family: var(--sans);
+  font-size: 9px;
+  color: #819570;
+  display: block;
+  font-weight: 550;
+  line-height: 1.7;
+  margin-top: 3px;
+}
+.travel-quote-strip > img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 42%;
+  height: 100%;
+  object-position: 50% 65%;
+  z-index: -1;
+  opacity: 0.6;
+  mask-image: linear-gradient(90deg, transparent, #000 70%);
+}
+.travel-weather {
+  display: grid;
+  grid-template-columns: 70px repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  align-items: center;
+  border-top: 1px solid #dce5d2;
+  margin-top: 21px;
+  padding-top: 21px;
+}
+.weather-label {
+  font-size: 7px;
+  line-height: 1.8;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #7c9668;
+}
+.weather-item {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  border: 1px solid #dce6d3;
+  background: #f5f7ee;
+  border-radius: 9px;
+  padding: 15px 13px;
+  color: #b18b3d;
+  min-height: 73px;
+}
+.weather-item > svg {
+  flex-shrink: 0;
+}
+.weather-item > div {
+  min-width: 0;
+}
+.weather-item > div > span {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  flex-wrap: wrap;
+  font-size: 9px;
+  color: #6b825d;
+  font-weight: 650;
+  line-height: 1.5;
+}
+.weather-item strong {
+  font-size: 19px;
+  font-family: var(--sans);
+  color: #426945;
+  letter-spacing: -0.5px;
+  font-weight: 800;
+}
+.weather-item small {
+  font-size: 6px;
+  color: #7e916d;
+  font-weight: 500;
+}
+.weather-item p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 6px;
+  line-height: 1.7;
+  color: #7e916d;
+  margin-top: 5px;
+  flex-wrap: wrap;
+}
+.weather-item p > span {
+  color: #a4b494;
+}
+.weather-item.weather-active {
+  background: #e3eed8;
+  border-color: #aec79b;
+}
+.weather-active > div > span {
+  color: #4c734b;
+}
+.weather-active small,
+.weather-active p {
+  color: #708d5c;
+}
+.weather-attribution {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 17px;
+  font-size: 7px;
+  line-height: 1.8;
+  color: #7e8f73;
+}
+.weather-attribution > a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+}
+.travel-fetch-error {
+  font-size: 9px;
+  color: #7e9470;
+  line-height: 1.8;
+  margin-top: 10px;
+}
+.prayer-loading .prayer-time > strong {
+  opacity: 0.5;
+}
+
+.contact-section {
+  display: grid;
+  grid-template-columns: 1.42fr 1fr;
+  gap: 26px;
+  padding-top: 0;
+  padding-bottom: 90px;
+  align-items: start;
+}
+.contact-form-card,
+.contact-details-card {
+  border: 1px solid #dde9d9;
+  border-radius: 12px;
+  background: #fffefb;
+  padding: 34px;
+}
+.contact-form-card h2 {
+  font-size: 40px;
+  line-height: 1.12;
+  margin-top: 17px;
+}
+.contact-form-card > p {
+  font-size: 12px;
+  color: #8b9b80;
+  line-height: 1.9;
+  margin-top: 15px;
+}
+.contact-form-card form {
+  margin-top: 28px;
+}
+.contact-form-card form label {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  font-size: 10px;
+  font-weight: 600;
+  color: #7b9470;
+  line-height: 1.7;
+  margin-bottom: 19px;
+}
+.contact-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+.contact-form-row label > span {
+  font-size: 8px;
+  color: #a0ad94;
+  display: inline;
+}
+.contact-form-card input:not([type="checkbox"]),
+.contact-form-card textarea {
+  width: 100%;
+  border: 1px solid #dce6d6;
+  background: #fcfdf7;
+  border-radius: 6px;
+  padding: 13px 15px;
+  min-height: 45px;
+  font-size: 12px;
+  color: #55724b;
+  line-height: 1.6;
+  resize: vertical;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+  outline-color: #9cbe84;
+}
+.contact-form-card input::placeholder,
+.contact-form-card textarea::placeholder {
+  color: #a6b49b;
+  font-size: 11px;
+}
+.contact-form-card input:focus,
+.contact-form-card textarea:focus {
+  border-color: #8dbc78;
+  box-shadow: 0 0 0 3px #add18b0a;
+}
+.contact-form-card textarea {
+  max-height: 300px;
+}
+.contact-form-card .contact-consent {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  font-size: 9px;
+  color: #98a78b;
+  font-weight: 450;
+  margin: 7px 0 24px;
+}
+.contact-consent input {
+  accent-color: #0b8e69;
+  width: 14px;
+  height: 14px;
+  margin: 1px 0 0;
+  flex-shrink: 0;
+}
+.contact-form-card form > .button {
+  min-width: 191px;
+  justify-content: space-between;
+  font-size: 11px;
+}
+.contact-details-card {
+  background: #eff6eb;
+  padding: 30px;
+}
+.contact-details-heading {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.contact-details-heading > span {
+  width: 40px;
+  height: 43px;
+  background: #deebd4;
+  color: #78a05e;
+  border-radius: 11px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+.contact-details-heading h3 {
+  font-family: var(--sans);
+  font-size: 16px;
+  font-weight: 750;
+  letter-spacing: -0.5px;
+  color: #4c7144;
+  line-height: 1.5;
+}
+.contact-details-heading p {
+  font-size: 9px;
+  color: #98ad8c;
+  margin-top: 4px;
+}
+.contact-details-description {
+  font-size: 11px;
+  line-height: 1.9;
+  color: #8ea17f;
+  margin-top: 20px;
+  max-width: 310px;
+}
+.contact-detail-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 27px;
+}
+.contact-detail-list > div {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+.contact-detail-list > div > span {
+  width: 32px;
+  height: 34px;
+  background: #e2efdb;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: #76a05c;
+  flex-shrink: 0;
+}
+.contact-detail-list small {
+  display: block;
+  font-size: 8px;
+  color: #a0b192;
+  margin-bottom: 5px;
+}
+.contact-detail-list strong,
+.contact-detail-list a {
+  font-size: 10px;
+  font-weight: 550;
+  color: #759267;
+  line-height: 1.8;
+  word-break: break-word;
+}
+.contact-detail-list a {
+  color: #268777;
+}
+.contact-detail-list a:hover {
+  text-decoration: underline;
+}
+.contact-map {
+  width: 100%;
+  height: 165px;
+  border-radius: 8px;
+  border: 1px solid #d9e5d0;
+  margin-top: 26px;
+  display: block;
+}
+.contact-map-placeholder {
+  position: relative;
+  height: 155px;
+  isolation: isolate;
+  overflow: hidden;
+  border: 1px solid #dae6d2;
+  border-radius: 8px;
+  margin-top: 27px;
+  background-color: #e7efdf;
+  background-image:
+    linear-gradient(0deg, transparent 94%, #d7e3cc 94%),
+    linear-gradient(90deg, transparent 94%, #d7e3cc 94%);
+  background-size: 29px 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.map-street {
+  position: absolute;
+  background: #f5f8ec;
+  border-inline: 1px solid #d6e3ca;
+  width: 14px;
+  height: 400px;
+  transform: rotate(35deg);
+  left: 12%;
+  top: -70px;
+  z-index: -1;
+}
+.street-two {
+  left: 75%;
+  transform: rotate(-35deg);
+  width: 11px;
+}
+.street-three {
+  height: 15px;
+  width: 400px;
+  transform: rotate(-13deg);
+  left: -20px;
+  top: 70%;
+  border-block: 1px solid #d6e3ca;
+}
+.map-pin {
+  display: grid;
+  place-items: center;
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  background: #dceccb;
+  color: #83a95f;
+  border: 1px solid #cfe1bc;
+  box-shadow: 0 3px 15px #adc89124;
+}
+.map-pin > svg {
+  stroke: #edf5e1;
+}
+.contact-map-placeholder > strong {
+  font-size: 12px;
+  color: #8eab72;
+  margin-top: 10px;
+  font-weight: 700;
+}
+.contact-map-placeholder > span:last-child {
+  font-size: 7px;
+  color: #a3b78f;
+  margin-top: 4px;
+}
+.contact-telegram {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  font-size: 10px;
+  margin-top: 21px;
+  min-height: 43px;
+  background: #138769;
+  border-color: #138769;
+}
+.contact-telegram > svg:last-child {
+  margin-left: auto;
+}
+.contact-sample-note {
+  font-size: 7px;
+  color: #a8b69a;
+  text-align: center;
+  line-height: 1.8;
+  margin-top: 11px;
+}
+.contact-success {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 385px;
+  gap: 18px;
+  color: #5e9d66;
+}
+.contact-success > svg {
+  color: #36b68d;
+}
+.contact-success > h3 {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 33px;
+  color: #46764d;
+}
+.contact-success > p {
+  font-size: 12px;
+  line-height: 1.9;
+  color: #92a284;
+  max-width: 350px;
+}
+.contact-success > .link-button {
+  margin-top: 5px;
+  color: #6b9664;
+  font-size: 11px;
+}
+.footer-contacts {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  padding-top: 25px;
+  margin-bottom: 29px;
+  border-top: 1px solid #d4dfcd;
+}
+.footer-contacts > a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  padding: 17px;
+  border: 1px solid #d6e2ce;
+  border-radius: 9px;
+  background: #f6faf1;
+  transition:
+    border-color 0.2s,
+    background 0.2s,
+    transform 0.2s;
+}
+.footer-contacts > a:hover {
+  background: #fcfff8;
+  border-color: #9fbc8d;
+  transform: translateY(-2px);
+}
+.footer-contact-icon {
+  display: grid;
+  place-items: center;
+  width: 37px;
+  height: 39px;
+  flex-shrink: 0;
+  border-radius: 11px;
+  background: #e3eed9;
+  color: #70915c;
+}
+.footer-contact-copy {
+  min-width: 0;
+}
+.footer-contact-copy strong {
+  display: block;
+  color: #4d7044;
+  font-size: 11px;
+  font-weight: 650;
+}
+.footer-contact-copy > span {
+  display: block;
+  color: #7d9272;
+  font-size: 10px;
+  line-height: 1.7;
+  margin-top: 5px;
+  overflow-wrap: anywhere;
+}
+.footer-contact-arrow {
+  margin-left: auto;
+  color: #8ca47a;
+  flex-shrink: 0;
+}
+@media (max-width: 1000px) {
+  .footer-contacts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 550px) {
+  .footer-contacts {
+    gap: 12px;
+    padding-top: 24px;
+    margin-bottom: 24px;
+  }
+  .footer-contacts > a {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px;
+  }
+  .footer-contact-copy {
+    width: 100%;
+    order: 2;
+  }
+  .footer-contact-copy strong {
+    font-size: 11px;
+  }
+  .footer-contact-copy > span {
+    font-size: 10px;
+  }
+  .footer-contact-icon {
+    width: 32px;
+    height: 34px;
+    border-radius: 10px;
+  }
+  .footer-contact-icon > svg {
+    width: 18px;
+  }
+}
+.footer-bottom {
+  flex-wrap: wrap;
+}
+.footer-admin-link {
+  font-size: 8px;
+}
+.footer-bottom > a {
+  white-space: nowrap;
+}
+.contact-form-row > label {
+  position: relative;
+}
+.contact-form-row > label > span {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.weather-attribution a:hover,
+.prayer-widget-caption a:hover {
+  color: #387b56;
+}
+
+@media (max-width: 1150px) {
+  .agency-services > article {
+    padding-inline: 21px;
+  }
+  .agency-services p {
+    font-size: 10px;
+  }
+  .why-card {
+    padding: 24px 23px;
+  }
+  .why-card h3 {
+    font-size: 14px;
+  }
+  .why-card p {
+    font-size: 10px;
+  }
+  .why-number {
+    font-size: 45px;
+  }
+  .why-bottom > em {
+    font-size: 20px;
+  }
+  .payment-section {
+    gap: 65px;
+  }
+  .payment-intro > h2 {
+    font-size: 46px;
+  }
+  .payment-option {
+    padding: 18px;
+    gap: 13px;
+    min-height: 84px;
+  }
+  .payment-option strong {
+    font-size: 11px;
+  }
+  .payment-option small {
+    font-size: 9px;
+  }
+  .travel-check-banner h3 {
+    font-size: 17px;
+  }
+  .travel-check-banner p {
+    font-size: 10px;
+    max-width: 450px;
+  }
+  .travel-check-banner > a {
+    font-size: 9px;
+    padding: 13px 15px;
+    gap: 14px;
+  }
+  .prayer-widget {
+    padding: 26px;
+  }
+  .prayer-time > strong {
+    font-size: 24px;
+  }
+  .prayer-time > span {
+    font-size: 8px;
+  }
+  .prayer-time > small {
+    font-size: 5px;
+  }
+  .prayer-time {
+    min-height: 123px;
+  }
+  .prayer-times-grid {
+    gap: 10px;
+  }
+  .prayer-heading-controls {
+    gap: 11px;
+  }
+  .prayer-title h2 {
+    font-size: 23px;
+  }
+  .prayer-title p,
+  .prayer-title p > span {
+    font-size: 7px;
+  }
+  .travel-clock {
+    min-width: 101px;
+  }
+  .travel-clock strong {
+    font-size: 19px;
+  }
+  .travel-weather {
+    grid-template-columns: 60px repeat(3, minmax(0, 1fr));
+    gap: 10px;
+  }
+  .weather-item {
+    padding: 13px 11px;
+    gap: 9px;
+  }
+  .weather-item > svg {
+    width: 21px;
+  }
+  .weather-item > div > span {
+    font-size: 8px;
+    gap: 5px;
+  }
+  .weather-item strong {
+    font-size: 17px;
+  }
+  .weather-item small {
+    font-size: 5px;
+  }
+  .weather-item p {
+    font-size: 5px;
+    gap: 4px;
+  }
+  .contact-section {
+    gap: 23px;
+  }
+  .contact-form-card {
+    padding: 29px;
+  }
+  .contact-form-card h2 {
+    font-size: 37px;
+  }
+  .contact-details-card {
+    padding: 27px;
+  }
+  .contact-details-heading h3 {
+    font-size: 14px;
+  }
+  .contact-details-description {
+    font-size: 10px;
+  }
+  .contact-detail-list strong,
+  .contact-detail-list a {
+    font-size: 9px;
+  }
+  .contact-details-heading {
+    gap: 11px;
+  }
+}
+@media (max-width: 900px) {
+  .agency-services {
+    padding-block: 24px;
+  }
+  .agency-services > article {
+    padding-inline: 18px;
+  }
+  .agency-services h3 {
+    font-size: 11px;
+  }
+  .agency-services p {
+    font-size: 9px;
+  }
+  .service-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+  }
+  .service-icon > svg {
+    width: 20px;
+  }
+  .service-index {
+    font-size: 20px;
+  }
+  .why-section {
+    padding-block: 65px;
+  }
+  .why-heading h2 {
+    font-size: 33px;
+  }
+  .why-heading > p {
+    font-size: 11px;
+  }
+  .why-grid {
+    gap: 15px;
+  }
+  .why-card {
+    padding: 22px 20px;
+    min-height: 224px;
+  }
+  .why-card h3 {
+    font-size: 12px;
+    line-height: 1.6;
+    margin-top: 19px;
+  }
+  .why-card p {
+    font-size: 9px;
+  }
+  .why-number {
+    font-size: 39px;
+    right: 18px;
+    top: 21px;
+  }
+  .why-icon {
+    width: 39px;
+    height: 39px;
+    border-radius: 11px;
+  }
+  .why-icon > svg {
+    width: 19px;
+  }
+  .why-bottom {
+    padding: 18px 21px;
+    gap: 20px;
+  }
+  .why-bottom > span {
+    font-size: 8px;
+    gap: 10px;
+  }
+  .why-bottom > em {
+    font-size: 18px;
+    gap: 7px;
+  }
+  .payment-section {
+    gap: 45px;
+  }
+  .payment-intro > h2 {
+    font-size: 41px;
+  }
+  .payment-intro > p {
+    font-size: 11px;
+  }
+  .payment-visual {
+    width: 270px;
+    padding-left: 5px;
+  }
+  .payment-card-art {
+    height: 164px;
+    padding: 22px;
+  }
+  .payment-secure-pill {
+    right: -8px;
+    font-size: 7px;
+    padding: 9px 12px;
+  }
+  .payment-option {
+    padding: 16px;
+    gap: 11px;
+  }
+  .payment-option-icon {
+    width: 36px;
+    height: 39px;
+    border-radius: 10px;
+  }
+  .payment-option-icon > svg {
+    width: 20px;
+  }
+  .payment-option strong {
+    font-size: 10px;
+  }
+  .payment-option small {
+    font-size: 8px;
+  }
+  .payment-choice {
+    width: 15px;
+    height: 15px;
+  }
+  .payment-footnote {
+    font-size: 8px;
+  }
+  .travel-check-banner {
+    padding: 23px 25px;
+    gap: 16px;
+  }
+  .travel-check-banner > span {
+    width: 45px;
+    height: 48px;
+    border-radius: 12px;
+  }
+  .travel-check-banner > span > svg {
+    width: 25px;
+  }
+  .travel-check-banner h3 {
+    font-size: 16px;
+  }
+  .travel-check-banner p {
+    font-size: 9px;
+    max-width: 330px;
+  }
+  .travel-check-banner > a {
+    font-size: 8px;
+    gap: 10px;
+    padding-inline: 13px;
+  }
+  .travel-check-banner > a > svg {
+    width: 15px;
+  }
+  .prayer-widget {
+    padding: 23px;
+  }
+  .prayer-brand-icon {
+    width: 39px;
+    height: 43px;
+    border-radius: 11px;
+  }
+  .prayer-title {
+    gap: 11px;
+  }
+  .prayer-title h2 {
+    font-size: 21px;
+  }
+  .travel-today {
+    font-size: 6px;
+    letter-spacing: 1.3px;
+  }
+  .prayer-title p > span {
+    display: none;
+  }
+  .prayer-city-selector {
+    padding: 8px 10px;
+    gap: 5px;
+  }
+  .prayer-city-selector > select {
+    font-size: 9px;
+    min-width: 73px;
+  }
+  .prayer-city-selector > svg {
+    width: 12px;
+  }
+  .travel-clock {
+    padding: 8px 10px;
+    min-width: 95px;
+  }
+  .travel-clock strong {
+    font-size: 17px;
+  }
+  .travel-clock small {
+    font-size: 5px;
+  }
+  .travel-clock > span {
+    font-size: 5px;
+  }
+  .prayer-heading-controls {
+    gap: 9px;
+  }
+  .prayer-times-grid {
+    gap: 8px;
+  }
+  .prayer-time {
+    padding-inline: 8px;
+    gap: 8px;
+    min-height: 117px;
+  }
+  .prayer-time > strong {
+    font-size: 22px;
+  }
+  .prayer-time > span {
+    font-size: 7px;
+  }
+  .prayer-time > svg {
+    width: 20px;
+  }
+  .prayer-time > small {
+    font-size: 4.5px;
+  }
+  .prayer-widget-caption {
+    font-size: 7px;
+  }
+  .prayer-widget-caption > a,
+  .prayer-widget-caption > button {
+    font-size: 7px;
+  }
+  .travel-quote-strip {
+    padding: 17px;
+    margin-top: 21px;
+  }
+  .travel-quote-strip > p {
+    font-size: 18px;
+  }
+  .travel-quote-strip strong {
+    font-size: 8px;
+  }
+  .travel-weather {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+    padding-top: 16px;
+    margin-top: 18px;
+  }
+  .weather-label {
+    grid-column: 1/-1;
+    display: flex;
+    font-size: 7px;
+  }
+  .weather-label > br {
+    display: none;
+  }
+  .weather-item > div > span {
+    font-size: 8px;
+  }
+  .weather-item strong {
+    font-size: 17px;
+  }
+  .weather-item small {
+    font-size: 5px;
+  }
+  .weather-item p {
+    font-size: 5px;
+  }
+  .weather-attribution {
+    font-size: 6px;
+  }
+  .contact-form-card {
+    padding: 25px;
+  }
+  .contact-form-card h2 {
+    font-size: 34px;
+  }
+  .contact-form-card > p {
+    font-size: 11px;
+  }
+  .contact-form-card > .eyebrow {
+    font-size: 8px;
+    letter-spacing: 1.5px;
+  }
+  .contact-form-card form label {
+    font-size: 9px;
+    gap: 8px;
+  }
+  .contact-form-card input:not([type="checkbox"]),
+  .contact-form-card textarea {
+    font-size: 11px;
+    padding: 12px;
+    min-height: 43px;
+  }
+  .contact-form-card input::placeholder,
+  .contact-form-card textarea::placeholder {
+    font-size: 10px;
+  }
+  .contact-form-row {
+    gap: 13px;
+  }
+  .contact-form-row > label > span {
+    font-size: 6px;
+    top: 1px;
+  }
+  .contact-form-card .contact-consent {
+    font-size: 8px;
+  }
+  .contact-form-card form > .button {
+    font-size: 10px;
+    min-width: 175px;
+    min-height: 46px;
+  }
+  .contact-details-card {
+    padding: 24px;
+  }
+  .contact-details-heading h3 {
+    font-size: 12px;
+  }
+  .contact-details-heading p {
+    font-size: 8px;
+  }
+  .contact-details-heading > span {
+    width: 35px;
+    height: 38px;
+    border-radius: 10px;
+  }
+  .contact-details-heading > span > svg {
+    width: 22px;
+  }
+  .contact-details-description {
+    font-size: 9px;
+  }
+  .contact-detail-list {
+    gap: 17px;
+  }
+  .contact-detail-list small {
+    font-size: 7px;
+  }
+  .contact-detail-list strong,
+  .contact-detail-list a {
+    font-size: 8px;
+  }
+  .contact-detail-list > div {
+    gap: 9px;
+  }
+  .contact-detail-list > div > span {
+    width: 29px;
+    height: 30px;
+  }
+  .contact-detail-list > div > span > svg {
+    width: 15px;
+  }
+  .contact-map-placeholder {
+    height: 140px;
+  }
+  .contact-telegram {
+    font-size: 9px;
+    min-height: 40px;
+    gap: 8px;
+  }
+  .contact-sample-note {
+    font-size: 6px;
+  }
+  .hero-image-caption {
+    left: 38%;
+  }
+  .hero-image-caption strong {
+    font-size: 10px;
+  }
+  .hotel-real-name {
+    font-size: 11px;
+  }
+  .hotel-real-name > span {
+    font-size: 9px;
+  }
+  .image-note {
+    font-size: 8px;
+    gap: 4px;
+  }
+}
+@media (max-width: 700px) {
+  .hero-image-caption {
+    left: 34%;
+  }
+  .hero-image-caption strong {
+    font-size: 10px;
+  }
+  .hero-copy > p {
+    color: #7b8974;
+  }
+  .hero-season {
+    font-size: 6px;
+  }
+  .agency-services {
+    grid-template-columns: 1fr 1fr;
+    padding: 5px 19px;
+    margin-bottom: 0;
+    margin-top: 0;
+    gap: 0;
+  }
+  .agency-services > article {
+    padding: 23px 0;
+  }
+  .agency-services > article + article {
+    border-left: 0;
+  }
+  .agency-services > article:nth-child(odd) {
+    padding-right: 19px;
+    border-right: 1px solid #dbe9d8;
+  }
+  .agency-services > article:nth-child(even) {
+    padding-left: 20px;
+  }
+  .agency-services > article:nth-child(n + 3) {
+    border-top: 1px solid #dbe9d8;
+  }
+  .agency-services > article > div {
+    margin-bottom: 13px;
+  }
+  .agency-services h3 {
+    font-size: 11px;
+  }
+  .agency-services p {
+    font-size: 10px;
+    line-height: 1.85;
+    margin-top: 9px;
+  }
+  .service-icon {
+    width: 34px;
+    height: 35px;
+  }
+  .service-icon > svg {
+    width: 19px;
+  }
+  .service-index {
+    font-size: 19px;
+  }
+  .hotel-real-name {
+    font-size: 12px;
+    margin-top: 17px;
+  }
+  .hotel-real-name > span {
+    font-size: 10px;
+  }
+  .image-note {
+    font-size: 8px;
+  }
+  .hotel-info {
+    padding-block: 30px;
+  }
+  .hotel-info h3 {
+    margin-top: 12px;
+  }
+  .why-section {
+    padding-block: 56px;
+  }
+  .why-pill {
+    font-size: 8px;
+    padding: 7px 11px;
+  }
+  .why-heading h2 {
+    font-size: 29px;
+    letter-spacing: -1.2px;
+    line-height: 1.3;
+    margin-top: 19px;
+  }
+  .why-heading > p {
+    font-size: 11px;
+    line-height: 1.9;
+    margin-top: 13px;
+  }
+  .why-heading > p > br {
+    display: none;
+  }
+  .why-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    margin-top: 28px;
+  }
+  .why-card {
+    padding: 24px 25px;
+    min-height: 190px;
+    border-radius: 11px;
+  }
+  .why-card h3 {
+    font-size: 15px;
+    max-width: 260px;
+    margin-top: 18px;
+    line-height: 1.6;
+  }
+  .why-card p {
+    font-size: 11px;
+    max-width: 290px;
+    line-height: 1.9;
+  }
+  .why-icon {
+    width: 41px;
+    height: 41px;
+  }
+  .why-icon > svg {
+    width: 21px;
+  }
+  .why-number {
+    right: 25px;
+    top: 20px;
+    font-size: 48px;
+  }
+  .why-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 17px;
+    padding: 21px;
+    margin-top: 20px;
+  }
+  .why-bottom > span {
+    font-size: 9px;
+    align-items: flex-start;
+    gap: 10px;
+    line-height: 1.9;
+  }
+  .why-bottom > span > svg {
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .why-bottom > em {
+    font-size: 20px;
+    white-space: normal;
+    border-top: 1px solid #293950;
+    padding-top: 15px;
+    width: 100%;
+    line-height: 1.4;
+    gap: 8px;
+  }
+  .payment-section {
+    grid-template-columns: 1fr;
+    gap: 38px;
+    padding-block: 55px;
+  }
+  .payment-intro > h2 {
+    font-size: 42px;
+    line-height: 1.08;
+  }
+  .payment-intro > p {
+    font-size: 11px;
+    max-width: 320px;
+    margin-top: 18px;
+  }
+  .payment-intro > .eyebrow {
+    font-size: 8px;
+    letter-spacing: 1.5px;
+  }
+  .payment-visual {
+    margin: 25px auto 0;
+    width: 280px;
+    padding-left: 0;
+  }
+  .payment-card-art {
+    height: 169px;
+    padding: 23px;
+  }
+  .payment-card-art > div:first-child > span {
+    font-size: 10px;
+  }
+  .payment-card-art > strong {
+    font-size: 13px;
+  }
+  .payment-card-art > span {
+    font-size: 5px;
+  }
+  .payment-secure-pill {
+    right: -7px;
+    bottom: 0;
+    font-size: 8px;
+    padding: 10px 13px;
+  }
+  .payment-options {
+    gap: 12px;
+  }
+  .payment-option {
+    padding: 19px;
+    gap: 14px;
+    min-height: 89px;
+  }
+  .payment-option-icon {
+    width: 38px;
+    height: 42px;
+    border-radius: 11px;
+  }
+  .payment-option-icon > svg {
+    width: 21px;
+  }
+  .payment-option strong {
+    font-size: 12px;
+  }
+  .payment-option small {
+    font-size: 10px;
+  }
+  .payment-choice {
+    width: 17px;
+    height: 17px;
+  }
+  .payment-footnote {
+    font-size: 9px;
+    line-height: 1.9;
+  }
+  .travel-tools {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  .travel-check-banner {
+    padding: 24px;
+    flex-wrap: wrap;
+    gap: 16px;
+    border-radius: 11px;
+    margin-bottom: 23px;
+  }
+  .travel-check-banner > span {
+    width: 43px;
+    height: 44px;
+    border-radius: 11px;
+  }
+  .travel-check-banner > span > svg {
+    width: 24px;
+  }
+  .travel-check-banner > div {
+    flex: 1;
+    min-width: 180px;
+  }
+  .travel-check-banner h3 {
+    font-size: 17px;
+    line-height: 1.5;
+    letter-spacing: -0.5px;
+  }
+  .travel-check-banner p {
+    font-size: 10px;
+    line-height: 1.9;
+    margin-top: 8px;
+    max-width: 260px;
+  }
+  .travel-check-banner > a {
+    margin-left: 0;
+    gap: 20px;
+    padding: 12px 16px;
+    font-size: 9px;
+  }
+  .prayer-widget {
+    padding: 22px 19px;
+    border-radius: 12px;
+  }
+  .prayer-widget-heading {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 19px;
+    margin-bottom: 21px;
+  }
+  .prayer-title h2 {
+    font-size: 23px;
+    margin-top: 6px;
+  }
+  .prayer-title p {
+    font-size: 8px;
+    line-height: 1.9;
+    margin-top: 7px;
+  }
+  .prayer-title p > span {
+    display: none;
+  }
+  .travel-today {
+    font-size: 5.5px;
+    letter-spacing: 1px;
+  }
+  .prayer-brand-icon {
+    width: 38px;
+    height: 43px;
+    border-radius: 10px;
+  }
+  .prayer-brand-icon > svg {
+    width: 22px;
+  }
+  .prayer-title {
+    gap: 12px;
+  }
+  .prayer-heading-controls {
+    justify-content: space-between;
+    gap: 15px;
+  }
+  .prayer-city-selector {
+    padding: 9px 12px;
+    gap: 6px;
+  }
+  .prayer-city-selector > select {
+    font-size: 10px;
+    min-width: 83px;
+  }
+  .prayer-city-selector > svg {
+    width: 13px;
+  }
+  .travel-clock {
+    border: 0;
+    background: none;
+    padding: 0;
+    min-width: 95px;
+  }
+  .travel-clock > span {
+    font-size: 5px;
+  }
+  .travel-clock strong {
+    font-size: 21px;
+    line-height: 1.5;
+  }
+  .travel-clock small {
+    display: none;
+  }
+  .prayer-times-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 9px;
+  }
+  .prayer-time {
+    min-height: 117px;
+    padding: 13px 7px;
+    gap: 8px;
+    border-radius: 9px;
+  }
+  .prayer-time > strong {
+    font-size: 22px;
+  }
+  .prayer-time > svg {
+    width: 21px;
+  }
+  .prayer-time > span {
+    font-size: 8px;
+  }
+  .prayer-time > small {
+    font-size: 5px;
+    bottom: 7px;
+    line-height: 1.6;
+  }
+  .prayer-time.prayer-next {
+    padding-bottom: 23px;
+  }
+  .prayer-widget-caption {
+    font-size: 6px;
+    gap: 7px;
+    margin-top: 14px;
+    align-items: flex-start;
+  }
+  .prayer-widget-caption > span {
+    align-items: flex-start;
+    gap: 5px;
+    line-height: 1.8;
+  }
+  .prayer-widget-caption > span > svg {
+    flex-shrink: 0;
+    width: 11px;
+    height: 11px;
+  }
+  .prayer-widget-caption > a,
+  .prayer-widget-caption > button {
+    font-size: 6px;
+    flex-shrink: 0;
+  }
+  .travel-quote-strip {
+    padding: 16px 15px;
+    gap: 10px;
+    margin-top: 19px;
+    min-height: 89px;
+  }
+  .travel-quote-strip > svg {
+    width: 15px;
+  }
+  .travel-quote-strip > p {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+  .travel-quote-strip strong {
+    font-size: 7px;
+    max-width: 190px;
+    line-height: 1.8;
+  }
+  .travel-quote-strip > img {
+    width: 46%;
+    opacity: 0.42;
+  }
+  .travel-weather {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 18px;
+    padding-top: 16px;
+  }
+  .weather-label {
+    font-size: 6px;
+    letter-spacing: 1.4px;
+    line-height: 1.6;
+  }
+  .weather-item {
+    padding: 13px 16px;
+    gap: 14px;
+    min-height: 66px;
+  }
+  .weather-item > svg {
+    width: 26px;
+  }
+  .weather-item > div > span {
+    font-size: 10px;
+    gap: 10px;
+    line-height: 1.6;
+  }
+  .weather-item strong {
+    font-size: 20px;
+    letter-spacing: -0.5px;
+  }
+  .weather-item small {
+    font-size: 8px;
+  }
+  .weather-item p {
+    font-size: 7px;
+    gap: 5px;
+    line-height: 1.8;
+    margin-top: 3px;
+  }
+  .weather-attribution {
+    font-size: 6px;
+    line-height: 1.9;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 15px;
+  }
+  .weather-attribution > a {
+    font-size: 6px;
+  }
+  .contact-section {
+    grid-template-columns: 1fr;
+    gap: 23px;
+    padding-bottom: 55px;
+  }
+  .contact-form-card {
+    padding: 27px 24px;
+  }
+  .contact-form-card > .eyebrow {
+    font-size: 7px;
+    letter-spacing: 1.4px;
+  }
+  .contact-form-card h2 {
+    font-size: 35px;
+    line-height: 1.14;
+    margin-top: 17px;
+  }
+  .contact-form-card > p {
+    font-size: 11px;
+    line-height: 1.9;
+    margin-top: 15px;
+  }
+  .contact-form-card form {
+    margin-top: 25px;
+  }
+  .contact-form-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .contact-form-card form label {
+    font-size: 10px;
+    gap: 8px;
+    margin-bottom: 19px;
+  }
+  .contact-form-row > label > span {
+    font-size: 8px;
+    top: 0;
+  }
+  .contact-form-card input:not([type="checkbox"]),
+  .contact-form-card textarea {
+    font-size: 16px;
+    padding: 12px 13px;
+    min-height: 45px;
+  }
+  .contact-form-card input::placeholder,
+  .contact-form-card textarea::placeholder {
+    font-size: 11px;
+  }
+  .contact-form-card textarea {
+    font-size: 14px;
+  }
+  .contact-form-card .contact-consent {
+    font-size: 8px;
+    line-height: 1.9;
+    gap: 7px;
+    margin-bottom: 22px;
+  }
+  .contact-form-card form > .button {
+    min-height: 46px;
+    font-size: 11px;
+    padding-inline: 20px;
+    min-width: 190px;
+  }
+  .contact-details-card {
+    padding: 28px 26px;
+  }
+  .contact-details-heading h3 {
+    font-size: 16px;
+  }
+  .contact-details-heading p {
+    font-size: 10px;
+  }
+  .contact-details-heading {
+    gap: 13px;
+  }
+  .contact-details-heading > span {
+    width: 39px;
+    height: 43px;
+    border-radius: 11px;
+  }
+  .contact-details-heading > span > svg {
+    width: 25px;
+  }
+  .contact-details-description {
+    font-size: 11px;
+    line-height: 1.9;
+    max-width: 300px;
+    margin-top: 20px;
+  }
+  .contact-detail-list {
+    gap: 21px;
+    margin-top: 27px;
+  }
+  .contact-detail-list small {
+    font-size: 8px;
+    margin-bottom: 5px;
+  }
+  .contact-detail-list strong,
+  .contact-detail-list a {
+    font-size: 11px;
+    line-height: 1.8;
+  }
+  .contact-detail-list > div > span {
+    width: 33px;
+    height: 35px;
+  }
+  .contact-detail-list > div > span > svg {
+    width: 17px;
+  }
+  .contact-detail-list > div {
+    gap: 11px;
+  }
+  .contact-map-placeholder {
+    height: 160px;
+    margin-top: 28px;
+  }
+  .contact-map-placeholder > strong {
+    font-size: 12px;
+  }
+  .contact-map-placeholder > span:last-child {
+    font-size: 8px;
+  }
+  .contact-telegram {
+    min-height: 46px;
+    font-size: 11px;
+    padding-inline: 17px;
+    gap: 11px;
+    margin-top: 22px;
+  }
+  .contact-sample-note {
+    font-size: 8px;
+    margin-top: 12px;
+  }
+  .contact-success {
+    min-height: 410px;
+  }
+  .contact-success > h3 {
+    font-size: 33px;
+  }
+  .contact-success > p {
+    font-size: 11px;
+  }
+  .contact-success > .link-button {
+    font-size: 10px;
+  }
+  .footer-bottom {
+    row-gap: 10px;
+  }
+  .footer-admin-link {
+    font-size: 7px;
+  }
+  .footer-bottom > span:nth-child(2) {
+    order: 4;
+  }
+  .footer-bottom > a:last-child {
+    margin-left: auto;
+  }
+}
+@media (max-width: 360px) {
+  .why-heading h2 {
+    font-size: 26px;
+  }
+  .why-heading > p {
+    font-size: 10px;
+  }
+  .why-card {
+    padding: 23px;
+  }
+  .why-number {
+    font-size: 44px;
+    right: 22px;
+  }
+  .why-card h3 {
+    font-size: 14px;
+  }
+  .why-card p {
+    font-size: 10px;
+  }
+  .why-bottom > em {
+    font-size: 19px;
+  }
+  .agency-services {
+    padding-inline: 16px;
+  }
+  .agency-services > article:nth-child(odd) {
+    padding-right: 16px;
+  }
+  .agency-services > article:nth-child(even) {
+    padding-left: 16px;
+  }
+  .agency-services p {
+    font-size: 9px;
+  }
+  .agency-services h3 {
+    font-size: 10px;
+  }
+  .service-index {
+    font-size: 17px;
+  }
+  .service-icon {
+    width: 31px;
+    height: 33px;
+  }
+  .payment-intro > h2 {
+    font-size: 38px;
+  }
+  .payment-visual {
+    width: 250px;
+  }
+  .payment-card-art {
+    height: 161px;
+    padding: 21px;
+  }
+  .payment-secure-pill {
+    font-size: 7px;
+    right: -5px;
+  }
+  .payment-option {
+    padding: 16px;
+    gap: 11px;
+  }
+  .payment-option strong {
+    font-size: 11px;
+  }
+  .payment-option small {
+    font-size: 9px;
+  }
+  .payment-choice {
+    width: 15px;
+    height: 15px;
+  }
+  .payment-footnote {
+    font-size: 8px;
+  }
+  .travel-check-banner {
+    padding: 22px;
+    gap: 13px;
+  }
+  .travel-check-banner h3 {
+    font-size: 15px;
+  }
+  .travel-check-banner > span {
+    width: 39px;
+    height: 40px;
+    border-radius: 10px;
+  }
+  .travel-check-banner > span > svg {
+    width: 22px;
+  }
+  .travel-check-banner > div {
+    min-width: 150px;
+  }
+  .travel-check-banner p {
+    font-size: 9px;
+  }
+  .prayer-widget {
+    padding: 20px 16px;
+  }
+  .prayer-title h2 {
+    font-size: 21px;
+  }
+  .travel-today {
+    font-size: 5px;
+    letter-spacing: 0.8px;
+  }
+  .prayer-brand-icon {
+    width: 34px;
+    height: 39px;
+  }
+  .prayer-title {
+    gap: 10px;
+  }
+  .prayer-times-grid {
+    gap: 7px;
+  }
+  .prayer-time > strong {
+    font-size: 20px;
+  }
+  .prayer-time > span {
+    font-size: 7px;
+  }
+  .prayer-time > small {
+    font-size: 4.5px;
+  }
+  .prayer-time {
+    min-height: 111px;
+  }
+  .travel-quote-strip strong {
+    max-width: 160px;
+  }
+  .weather-item small {
+    font-size: 7px;
+  }
+  .weather-item > div > span {
+    gap: 8px;
+    font-size: 9px;
+  }
+  .weather-item p {
+    font-size: 6px;
+  }
+  .contact-form-card {
+    padding: 25px 21px;
+  }
+  .contact-form-card h2 {
+    font-size: 33px;
+  }
+  .contact-form-card > .eyebrow {
+    font-size: 6px;
+    letter-spacing: 1.1px;
+  }
+  .contact-form-card > p {
+    font-size: 10px;
+  }
+  .contact-details-card {
+    padding: 25px 23px;
+  }
+  .contact-details-heading h3 {
+    font-size: 14px;
+  }
+  .contact-details-description {
+    font-size: 10px;
+  }
+  .contact-detail-list strong,
+  .contact-detail-list a {
+    font-size: 10px;
+  }
+  .hero-image-caption strong {
+    font-size: 9px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-season,
+  .loading-spin {
+    animation: none;
+  }
+  .why-card:hover {
+    transform: none;
+  }
+  .payment-card-art {
+    transform: rotate(-4deg);
+  }
+}
+.agency-services p {
+  color: #6f8264;
+}
+.payment-intro > p,
+.payment-option small {
+  color: #78896c;
+}
+.contact-form-card > p,
+.contact-details-description {
+  color: #75896a;
+}
+.contact-detail-list strong {
+  color: #6c855e;
+}
+@keyframes loading-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
