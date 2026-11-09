@@ -1,0 +1,130 @@
+{
+  "site": {
+    "name": "Umraga yo‘llanma",
+    "heroTitle": "Qalb chorlagan",
+    "heroAccent": "manzil sari.",
+    "description": "Muqaddas zaminlarga unutilmas safar. Siz ibodatga e’tibor qarating, safaringiz tafsilotlarini esa bizga ishoning.",
+    "phone": "+998900000000",
+    "telegram": "",
+    "email": "hello@example.com",
+    "address": "Toshkent shahri · ofis manzili aniqlashtiriladi",
+    "hours": "Dushanba – Shanba, 09:00 – 18:00",
+    "contactName": "Sayohat maslahatchisi",
+    "mapQuery": "",
+    "paymentNote": "To‘lov shartlari va rekvizitlar agentlik bilan yozma shartnomada kelishiladi.",
+    "paymentMethods": ["cash", "cards", "bank"],
+    "showTravelWidget": true,
+    "instagram": ""
+  },
+  "packages": [
+    {
+      "id": "standard",
+      "name": "Standart",
+      "stars": 3,
+      "price": 1190,
+      "image": "/images/makkah.jpg",
+      "subtitle": "Samimiy niyat. Oqilona tanlov.",
+      "room": "4 kishilik xona",
+      "distance": "Shattl bilan qatnov",
+      "description": "Asosiy qulayliklar va puxta rejalashtirilgan ziyorat dasturi."
+    },
+    {
+      "id": "comfort",
+      "name": "Komfort",
+      "stars": 4,
+      "price": 1490,
+      "image": "/images/madinah.jpg",
+      "subtitle": "Har qadamda qulaylik.",
+      "room": "3 kishilik xona",
+      "distance": "Piyoda borish imkoniyati",
+      "description": "Qulay joylashuv, shinam xonalar va ko‘proq xotirjamlik."
+    },
+    {
+      "id": "premium",
+      "name": "Premium",
+      "stars": 5,
+      "price": 1990,
+      "image": "/images/mosque.jpg",
+      "subtitle": "Muqaddas safar, alohida e’tibor.",
+      "room": "2 kishilik xona",
+      "distance": "Haram yaqinida joylashuv",
+      "description": "Yuqori toifadagi xizmat va shaxsiy e’tiborni qadrlovchilar uchun."
+    }
+  ],
+  "hotels": [
+    {
+      "stars": 3,
+      "label": "Standart",
+      "title": "Sodda, shinam va qulay.",
+      "text": "Ziyoratdan so‘ng dam olish uchun zarur qulayliklarga ega xonalar. Tejamkor safar uchun puxta o‘ylangan tanlov.",
+      "image": "/images/hotel-standard.webp",
+      "amenities": [
+        "4 kishilik joylashuv",
+        "Konditsionerli xonalar",
+        "Mehmonxona shattli",
+        "Wi-Fi imkoniyati"
+      ],
+      "name": "Al Kiswah Towers",
+      "city": "Makka",
+      "distance": "Guruhli joylashuv · qatnov bronlashda kelishiladi",
+      "sourceUrl": "https://alkiswah-towers.com/standard-quadruple-room/"
+    },
+    {
+      "stars": 4,
+      "label": "Komfort",
+      "title": "Xotirjamlik hamrohingiz bo‘lsin.",
+      "text": "Yorug‘ xonalar, qulay joylashuv va e’tiborli xizmat. Butun diqqat-e’tiboringizni ibodat va ziyoratga qarating.",
+      "image": "/images/hotel-comfort.jpg",
+      "amenities": [
+        "3 kishilik joylashuv",
+        "Nonushta va kechki ovqat",
+        "Makka shahrida joylashuv",
+        "Wi-Fi imkoniyati"
+      ],
+      "name": "Elaf Bakkah Hotel",
+      "city": "Makka",
+      "distance": "Al-Aziziya hududi · shattl tartibi kelishiladi",
+      "sourceUrl": "https://www.elafhotels.com/elaf-bakkah/gallery"
+    },
+    {
+      "stars": 5,
+      "label": "Premium",
+      "title": "Har bir lahzada alohida e’tibor.",
+      "text": "Keng xonalar, nafis interyer va yuqori toifadagi xizmat. Yaqinlaringiz bilan safaringizni yanada qulay o‘tkazing.",
+      "image": "/images/hotel-premium.jpg",
+      "amenities": [
+        "2 kishilik joylashuv",
+        "Keng va shinam xonalar",
+        "Haramga yaqin hudud",
+        "Yuqori toifadagi xizmat"
+      ],
+      "name": "Swissôtel Makkah",
+      "city": "Makka",
+      "distance": "Abraj al-Bayt hududi · xona bronlashda kelishiladi",
+      "sourceUrl": "https://www.swissotel.com/hotels/makkah/accommodation/classic-room/"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Paket narxiga nimalar kiritilgan?",
+      "a": "Ushbu namuna paketlarda borish-qaytish aviachiptasi, viza rasmiylashtirish xizmati, mehmonxona, dasturdagi ovqatlanish, aeroport va shaharlararo transfer hamda guruh yo‘lboshchisi nazarda tutilgan. Yakuniy tarkib va narx agentlikning yozma taklifida tasdiqlanadi."
+    },
+    {
+      "q": "3, 4 va 5 yulduzli paketlar o‘rtasida qanday farq bor?",
+      "a": "Asosiy farq — mehmonxona toifasi, xonadagi kishilar soni, joylashuv va xizmat darajasi. Standart paket tejamkorlikka, Komfort qulaylikka, Premium esa kengroq xonalar va alohida e’tiborga yo‘naltirilgan. Aniq mehmonxona nomi bronlashdan oldin kelishiladi."
+    },
+    {
+      "q": "Safar uchun qaysi hujjatlar kerak bo‘ladi?",
+      "a": "Hujjatlarning aniq ro‘yxati safar sanasi va amaldagi talablarga qarab agentlik tomonidan beriladi. Dastlab xorijga chiqish pasportingiz ma’lumotlarini tayyorlab qo‘ying. Pasport muddati, viza va boshqa talablarni bronlashdan oldin mutaxassis bilan tekshiring."
+    },
+    {
+      "q": "Ota-onam uchun safar tanlashim mumkinmi?",
+      "a": "Albatta. Ariza oynasida sayohatchilar soni va izohda ularning ehtiyojlarini ko‘rsating. Mehmonxonadan masjidgacha bo‘lgan masofa, xona joylashuvi va zarur yordamni oldindan kelishish tavsiya etiladi."
+    },
+    {
+      "q": "To‘lov va bronlash qanday amalga oshiriladi?",
+      "a": "Avval paket, safar sanasi va xizmatlar kelishiladi. To‘lov agentlik rekvizitlari, yozma shartnoma va bron shartlari tasdiqlanganidan so‘ng amalga oshiriladi. Saytdagi ariza to‘lovni amalga oshirmaydi va avtomatik bron yaratmaydi; maslahatchi siz bilan bog‘lanadi."
+    }
+  ],
+  "months": ["Dekabr 2026", "Yanvar 2027", "Fevral 2027"]
+}
