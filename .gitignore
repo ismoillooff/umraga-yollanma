@@ -1,0 +1,13 @@
+# Dependencies and generated output
+node_modules/
+dist/
+test-results/
+playwright-report/
+
+# Local settings, SQLite and uploaded media
+.env
+.env.*
+!.env.example
+.local/
+*.sqlite3*
+*.log
